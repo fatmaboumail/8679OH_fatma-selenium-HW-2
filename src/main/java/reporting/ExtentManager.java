@@ -18,7 +18,7 @@ public class ExtentManager {
             File resultDirectory = new File(outputDirectory.getParentFile(),"html");
 
 //            Date date = new Date();
-//            String fileName = "report_" + date.toString().replace(" ", "_").replace(":", "_")+".html";
+//           String fileName = "report_" + date.toString().replace(" ", "_").replace(":", "_")+".html";
             String fileName = "test_report.html";
             extent = new ExtentReports(System.getProperty("user.dir") + File.separator + "src" + File.separator
                     + "test" + File.separator + "reports" + File.separator + fileName,true);
