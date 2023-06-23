@@ -1,4 +1,4 @@
-package AddItem;
+package app.pom.addItem;
 
 import base.BasePage;
 import org.openqa.selenium.WebElement;

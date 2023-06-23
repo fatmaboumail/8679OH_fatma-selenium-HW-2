@@ -1,20 +1,17 @@
 package test_app;
 
-import AddItem.AddItemToCart;
-import Register.RegisterPage;
-import app.pom.homepage.Homepage;
+import app.pom.addItem.AddItemToCart;
+import app.pom.register.RegisterPage;
+import app.pom.home_page.Homepage;
 import base.BasePage;
-import deleteItem.DeleteItemFromShoppingCart;
-import login_page.LoginPage;
-import login_page.LoginPageWIthInvalidCredentials;
-import login_page.WelcomeLoginPage;
+import base.deleteItem.DeleteItemFromShoppingCart;
+import app.pom.login_page.LoginPage;
+import app.pom.login_page.LoginPageWIthInvalidCredentials;
+import app.pom.login_page.WelcomeLoginPage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.devtools.v85.log.model.ViolationSetting;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import search_page.SearchBar;
-
-import java.util.Optional;
+import app.pom.search_page.SearchBar;
 
 public class TestApp extends BasePage {
 

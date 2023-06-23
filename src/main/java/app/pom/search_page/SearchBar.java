@@ -1,4 +1,4 @@
-package search_page;
+package app.pom.search_page;
 
 import base.BasePage;
 import org.openqa.selenium.By;

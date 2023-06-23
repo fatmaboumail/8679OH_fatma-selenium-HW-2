@@ -1,4 +1,4 @@
-package app.pom.homepage;
+package app.pom.home_page;
 
 import base.BasePage;
 import org.openqa.selenium.WebElement;

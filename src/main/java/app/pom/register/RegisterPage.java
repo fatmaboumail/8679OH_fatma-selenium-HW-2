@@ -1,13 +1,9 @@
-package Register;
+package app.pom.register;
 
 import base.BasePage;
-import com.mysql.cj.x.protobuf.MysqlxCursor;
-import login_page.LoginPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import javax.naming.directory.SearchResult;
 
 public class RegisterPage extends BasePage {
 

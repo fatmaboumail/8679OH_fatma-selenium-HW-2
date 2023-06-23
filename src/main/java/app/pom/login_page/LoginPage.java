@@ -1,9 +1,7 @@
-package login_page;
+package app.pom.login_page;
 
 import base.BasePage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.devtools.v111.input.Input;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 

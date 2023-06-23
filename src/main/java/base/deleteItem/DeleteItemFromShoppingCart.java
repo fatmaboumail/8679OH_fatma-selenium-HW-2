@@ -1,4 +1,4 @@
-package deleteItem;
+package base.deleteItem;
 
 import base.BasePage;
 import org.openqa.selenium.WebElement;
