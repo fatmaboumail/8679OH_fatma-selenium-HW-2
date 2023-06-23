@@ -41,13 +41,16 @@ public class RegisterPage extends BasePage {
       confirm_passwordInputField.sendKeys(confirmPassword);
     }
     public void clickAccountButton(){accountButton.click();}
-
+public void doRegister(){
     RegisterPage Register= new RegisterPage();
     String First_name="Fatma";
     String Last_name="Boumail";
     String email="sarafaty07@gmail.com";
     String password="Fatma2023";
-    String confirmaPassword="Fatma2023";
+    String confirmPassword="Fatma2023";
+    }
+
+
 
 
 }

@@ -17,6 +17,7 @@ public class LoginPageWIthInvalidCredentials extends BasePage {
     public WebElement loginButton;
 
 
+
     public LoginPageWIthInvalidCredentials(){
         PageFactory.initElements(driver,this);
     }
@@ -35,6 +36,8 @@ public class LoginPageWIthInvalidCredentials extends BasePage {
     public void ClickSignInButton(){
         safeClickOnElement(loginButton);
     }
+    public WebElement getErrorMessage;
+
 
 
 
@@ -43,6 +46,7 @@ public class LoginPageWIthInvalidCredentials extends BasePage {
         setInputEmail(invalidEmail);
         setInputPassword(invalidPassword);
         ClickSignInButton();
+
 
 
 
