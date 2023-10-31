@@ -10,13 +10,13 @@
     <parameter name="driverConfigEnabled" value="true"/>
 
     <test name="smoke">
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name=""/>-->
-<!--            </run>-->
-<!--        </groups>-->
-        <classes>
-            <class name="test_app.TestApp"/>
+       <groups>
+            <run>
+               <include name=""/>
+            </run>
+       </groups>
+       <classes>
+
         </classes>
     </test>
 
